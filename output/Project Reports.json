@@ -1,150 +1,160 @@
 {
-    "title": "Project Reports",
+    "title": "Microsoft Word - Project Reports.docx",
     "outline": [
         {
             "level": "H1",
-            "text": "Introduction",
+            "text": "1 Introduction",
             "page": 3
         },
         {
             "level": "H2",
-            "text": "Background to the Report",
+            "text": "1.1 Background to the Report",
             "page": 3
         },
         {
             "level": "H2",
-            "text": "Writing Reports for Me",
+            "text": "1.2 Writing Reports for Me",
             "page": 4
         },
         {
             "level": "H2",
-            "text": "Structure of this Document",
+            "text": "1.3 Structure of this Document",
             "page": 4
         },
         {
             "level": "H1",
-            "text": "The Basics of Project Report Writing",
+            "text": "2 The Basics of Project Report Writing",
             "page": 6
         },
         {
             "level": "H2",
-            "text": "Before You Start",
+            "text": "2.1 Before You Start",
             "page": 6
         },
         {
             "level": "H2",
-            "text": "Structure: What to Include",
+            "text": "2.2 Structure: What to Include",
             "page": 7
         },
         {
             "level": "H2",
-            "text": "Structure: Sections and Sub-sections",
+            "text": "2.3 Structure: Sections and Sub-sections",
             "page": 13
         },
         {
             "level": "H2",
-            "text": "What I Look For in a Project Report",
+            "text": "2.4 What I Look For in a Project Report",
             "page": 15
         },
         {
             "level": "H2",
-            "text": "Resources on the Web",
+            "text": "2.5 Resources on the Web",
             "page": 16
         },
         {
             "level": "H2",
-            "text": "Speeling and Grammatically Errors",
+            "text": "2.6 Speeling and Grammatically Errors",
             "page": 16
         },
         {
             "level": "H2",
-            "text": "Circuit Diagrams",
+            "text": "2.7 Circuit Diagrams",
             "page": 18
         },
         {
             "level": "H2",
-            "text": "Numbers",
+            "text": "2.8 Numbers",
             "page": 19
         },
         {
             "level": "H2",
-            "text": "Plagiarism",
+            "text": "2.9 Plagiarism",
             "page": 19
         },
         {
             "level": "H1",
-            "text": "Microsoft Word",
+            "text": "3 Microsoft Word",
             "page": 22
         },
         {
             "level": "H2",
-            "text": "Equations",
+            "text": "3.1 Equations",
             "page": 22
         },
         {
             "level": "H2",
-            "text": "Figures",
+            "text": "3.2 Figures",
             "page": 23
         },
         {
             "level": "H2",
-            "text": "Graphs",
+            "text": "3.3 Graphs",
             "page": 23
         },
         {
             "level": "H2",
-            "text": "Flowcharts",
+            "text": "3.4 Flowcharts",
             "page": 24
         },
         {
             "level": "H2",
-            "text": "Tables",
+            "text": "3.5 Tables",
             "page": 24
         },
         {
             "level": "H2",
-            "text": "Styles and Numbering",
+            "text": "3.6 Styles and Numbering",
             "page": 24
         },
         {
             "level": "H2",
-            "text": "Program Code",
+            "text": "3.7 Program Code",
             "page": 25
         },
         {
             "level": "H2",
-            "text": "References and Citations",
+            "text": "3.8 References and Citations",
             "page": 25
         },
         {
             "level": "H2",
-            "text": "Footnotes",
+            "text": "3.9 Footnotes",
             "page": 25
         },
         {
             "level": "H1",
-            "text": "LaTeX",
+            "text": "4 LaTeX",
             "page": 26
         },
         {
             "level": "H2",
-            "text": "Some Things to Watch Out For if You Choose LaTeX",
+            "text": "4.1 Some Things to Watch Out For if You Choose LaTeX",
             "page": 26
         },
         {
             "level": "H2",
-            "text": "BibTeX",
+            "text": "4.2 BibTeX",
             "page": 27
         },
         {
             "level": "H1",
-            "text": "Common Mistakes",
+            "text": "5 Common Mistakes",
             "page": 28
         },
         {
             "level": "H1",
-            "text": "Conclusions and Further Work",
+            "text": "6 Conclusions and Further Work",
             "page": 30
+        },
+        {
+            "level": "H1",
+            "text": "Bibliography",
+            "page": 31
+        },
+        {
+            "level": "H1",
+            "text": "References",
+            "page": 31
         }
     ]
 }

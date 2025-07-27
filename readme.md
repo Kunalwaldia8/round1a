@@ -36,3 +36,111 @@ Navigate to the root directory of this project (where `Dockerfile` and `main.py`
 ```bash
 docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier .
 ```
+
+### Quick Start
+
+1. **Clone the Repository**
+
+```bash
+git clone <repository-url>
+cd <repository-name>
+```
+
+2. **Prepare Your Data**
+
+- Create an `input` directory and place your PDF files in it
+- Create an empty `output` directory for the results
+
+```bash
+mkdir -p input output
+```
+
+3. **Build and Run with Docker**
+
+```bash
+# Build the Docker image
+docker build -t pdf-extractor:latest .
+
+# Run the container
+docker run --rm \
+  -v "$(pwd)/input:/app/input:ro" \
+  -v "$(pwd)/output:/app/output" \
+  pdf-extractor:latest
+```
+
+The extracted outlines will be saved as JSON files in the `output` directory.
+
+### Input/Output Format
+
+#### Input
+
+- Place your PDF files in the `input` directory
+- Supports any valid PDF document
+
+#### Output
+
+JSON files with the following structure:
+
+```json
+{
+  "title": "Document Title",
+  "outline": [
+    {
+      "level": "H1",
+      "text": "Main Heading",
+      "page": 1
+    },
+    {
+      "level": "H2",
+      "text": "Sub Heading",
+      "page": 2
+    }
+  ]
+}
+```
+
+### Docker Requirements
+
+- Docker Engine 20.10.0 or later
+- At least 2GB of available memory
+- Internet connection for the initial build (to download base images and dependencies)
+
+### Troubleshooting
+
+1. **Permission Issues**
+
+   ```bash
+   # If you encounter permission issues, try running Docker with sudo
+   sudo docker build -t pdf-extractor:latest .
+   sudo docker run --rm -v "$(pwd)/input:/app/input:ro" -v "$(pwd)/output:/app/output" pdf-extractor:latest
+   ```
+
+2. **Memory Issues**
+
+   - If the container crashes, ensure Docker has enough memory allocated
+   - For Docker Desktop users, increase memory in Docker Desktop settings
+
+3. **No Output Generated**
+   - Verify that your PDF files are in the correct `input` directory
+   - Check that the files have `.pdf` extension
+   - Ensure the files are readable
+
+### Development
+
+If you want to modify the code or run it without Docker:
+
+1. **Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+2. **Run Directly**
+
+```bash
+python main.py
+```
+
+### License
+
+This project is licensed under the terms specified in the LICENSE file.
