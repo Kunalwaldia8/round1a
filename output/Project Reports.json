@@ -1,0 +1,150 @@
+{
+    "title": "Project Reports",
+    "outline": [
+        {
+            "level": "H1",
+            "text": "Introduction",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "Background to the Report",
+            "page": 3
+        },
+        {
+            "level": "H2",
+            "text": "Writing Reports for Me",
+            "page": 4
+        },
+        {
+            "level": "H2",
+            "text": "Structure of this Document",
+            "page": 4
+        },
+        {
+            "level": "H1",
+            "text": "The Basics of Project Report Writing",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Before You Start",
+            "page": 6
+        },
+        {
+            "level": "H2",
+            "text": "Structure: What to Include",
+            "page": 7
+        },
+        {
+            "level": "H2",
+            "text": "Structure: Sections and Sub-sections",
+            "page": 13
+        },
+        {
+            "level": "H2",
+            "text": "What I Look For in a Project Report",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Resources on the Web",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Speeling and Grammatically Errors",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "Circuit Diagrams",
+            "page": 18
+        },
+        {
+            "level": "H2",
+            "text": "Numbers",
+            "page": 19
+        },
+        {
+            "level": "H2",
+            "text": "Plagiarism",
+            "page": 19
+        },
+        {
+            "level": "H1",
+            "text": "Microsoft Word",
+            "page": 22
+        },
+        {
+            "level": "H2",
+            "text": "Equations",
+            "page": 22
+        },
+        {
+            "level": "H2",
+            "text": "Figures",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Graphs",
+            "page": 23
+        },
+        {
+            "level": "H2",
+            "text": "Flowcharts",
+            "page": 24
+        },
+        {
+            "level": "H2",
+            "text": "Tables",
+            "page": 24
+        },
+        {
+            "level": "H2",
+            "text": "Styles and Numbering",
+            "page": 24
+        },
+        {
+            "level": "H2",
+            "text": "Program Code",
+            "page": 25
+        },
+        {
+            "level": "H2",
+            "text": "References and Citations",
+            "page": 25
+        },
+        {
+            "level": "H2",
+            "text": "Footnotes",
+            "page": 25
+        },
+        {
+            "level": "H1",
+            "text": "LaTeX",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "Some Things to Watch Out For if You Choose LaTeX",
+            "page": 26
+        },
+        {
+            "level": "H2",
+            "text": "BibTeX",
+            "page": 27
+        },
+        {
+            "level": "H1",
+            "text": "Common Mistakes",
+            "page": 28
+        },
+        {
+            "level": "H1",
+            "text": "Conclusions and Further Work",
+            "page": 30
+        }
+    ]
+}
